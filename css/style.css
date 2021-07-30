@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Background Image */
+
+body::before{
+    content: "";
+    background-image:url("../img/bg.png");
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    /* overflow: auto; */
+}
+
+/* body style */
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* position: absolute; */
+}
+
+/* header style */
+header {
+    position: absolute;
+    /* border: 2px solid green; */
+    height: 200px;
+    width: 700px;
+    margin: 209px 130px;
+    padding: 20px 15px;
+}
+
+header h1{
+    /* border: 2px solid red; */
+    color: white;
+    margin: 4px 1px;
+    padding: 2px 1px;
+}
+
+header p{
+    /* border: 2px solid rgb(255, 217, 0); */
+    color: white;
+    margin: 4px 1px;
+    padding: 2px 1px;
+}
+
+header nav{
+    /* border: 2px solid rgb(2, 196, 255); */
+    /* margin: 7px 1px;
+    padding: 2px 1px; */
+}
+
+header nav ul{
+    display: flex;
+    margin: 15px 0px;
+}
+
+header nav ul li{
+    list-style: none;
+    /* border: 2px solid yellow; */
+    padding: 2px 2px;
+    margin: 2px 2px;
+    background-color: rgb(255, 230, 7);
+    border-radius: 5px;
+}
+header nav ul li a{
+    /* color: blanchedalmon; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 1px 15px;
+    /* background-color: greenyellow; */
+
+}
+
+
+/* Social meda of header */
+#social-media{
+    height: 200px;
+    /* display: flex; */
+}
+.social-icon img{
+    margin: 1px 1px;
+    padding: 1px 1px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Utility classes */
+.primary{
+    color: #FFC107;
+}
+.h-primary{
+    font-size: 2.2rem;
+    /* text-decoration: underline; */
+}
+
+
+.p-primary{
+    font-size: 1.1rem;
+}
+
+.selected{
+    
+background-color: #FFC107;
+}
+
+.selected a{
+    text-decoration: underline;
+    font-weight: 600;
+    color: black;
+}
+
+.clr{
+    clear: both;
+}
